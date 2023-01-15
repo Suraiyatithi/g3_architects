@@ -213,3 +213,141 @@ line-height: 70px;
 text-align: center;
 color: #FFFFFF;
 }
+/* fact about some */
+.fact-heading{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-left: 240px;
+    margin-bottom: 24px;
+}
+.fact-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    margin-bottom: 100px;
+    margin-left: 240px;
+
+}
+.factor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    column-gap: 124px;
+    margin-left: 240px;
+}
+.square{
+    text-align: center;
+    width: 241.83px;
+    height: 241.83px;
+    border: 1px solid #FF900E;
+    border-radius: 8px;
+    align-items: center;
+    padding-top: 60px;
+    /* padding-bottom: 30px; */
+}
+.square-heading{
+    margin-top: 14px;
+    font-size: 45px;
+    font-weight: 600px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+.square-description{
+    font-size: 20px;
+    font-weight: 600;
+    color: #727272;
+}
+/*  about sponspors */
+.sponspors-heading{
+    margin-top: 180px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 24px;
+    margin-left: 300px;
+}
+.sponspors-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    text-align: center;
+    margin-left: 300px;
+    align-items: center;
+
+}
+.spons-icon{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    column-gap: 100px;
+    /* color: #727272; */
+    margin-top: 70px;
+    margin-bottom: 100px;
+    margin-left: 240px;
+    align-items: center;
+}
+.play-protect{
+    border: 1px solid rgb(255, 221, 227);
+    background-color: rgb(249, 212, 218);
+    border-radius: 2px;
+    height: 60px;
+    width: 1440px;
+    margin-left: 240px;
+    margin-bottom: 60px;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    align-items: center;
+    padding-top: 30px;
+}
+/* contact section  */
+.contact .section-title{
+    text-align: left;
+}
+footer{
+    background-color: #25170d;
+    width: 1920px;
+    height: 1322px; 
+}
+.contact{
+    display: flex;
+    gap: 100px;
+    background: #25170d;
+    padding: 130px 200px;
+    color: rgb(249, 210, 237);
+}
+.contact-title{
+    font-size: 45px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+    padding-top: 140px;
+    background: #25170d;
+    color: rgb(249, 210, 237);
+}
+.contact-heading{
+    font-size: large;
+    margin-bottom: 30px;
+}
+.contact-description{
+    margin-bottom: 40px;
+}
+.contact input[type="text"],input[type="email"],text area{
+margin-bottom: 24px;
+border: 0;
+width: 100%;
+padding: 18px 30px;
+}
+input{
+    height: 64px;
+
+}
+.contact a{
+    text-decoration: none;
+}
+ /*transition-transform-  */
+ .box:hover.box{
+    transform: rotate(90deg);
+    transition: transform 2s ease;
+    background-color: gold;
+ }
